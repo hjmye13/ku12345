@@ -25,3 +25,9 @@ $ git commit -m "wrote a readme file"
 查看每一次改动日志
 git log （--pretty=oneline）
 
+退回上一个版本
+$ git reset --hard HEAD^
+内容：
+$ cat readme.txt
+
+
