@@ -16,3 +16,12 @@ git config -l
 $ git init
 
 mkdir 
+cd
+
+添加和提交文件
+$ git add readme.txt
+$ git commit -m "wrote a readme file"
+
+查看每一次改动日志
+git log （--pretty=oneline）
+
