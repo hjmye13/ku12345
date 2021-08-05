@@ -29,5 +29,13 @@ git log （--pretty=oneline）
 $ git reset --hard HEAD^
 内容：
 $ cat readme.txt
+回到指定版本：
+$ git reset --hard 1094a
+Git提供了一个命令git reflog用来记录你的每一次命令
+$ git reflog
+查看当前状态：
+$ git status
+
+
 
 
