@@ -1,0 +1,18 @@
+台式机用户名：Ye13  邮箱：137
+笔记本用户名：
+
+创建用户名和邮箱：
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+
+查看用户名和邮箱：
+$ git config user.name
+$ git config user.email
+
+# 查看目前全局git配置信息
+git config -l
+
+把这个目录变成Git可以管理的仓库：
+$ git init
+
+mkdir 
